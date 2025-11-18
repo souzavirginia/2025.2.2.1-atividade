@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+* { font-family: "Roboto", "Stack Sans Notch" sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    background-color: rgb(227, 230, 247);
+}
+
+header {
+    background-color: #7eb6ff;
+}
+
+header h1 {
+    color:rgb(242, 246, 255);
+    background-color: rgb(187, 163, 255);
+}
