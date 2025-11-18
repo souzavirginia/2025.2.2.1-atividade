@@ -28,3 +28,12 @@ header h1 {
     background-color: rgb(187, 163, 255);
 }
 
+
+.footer-principal {
+    margin: 4px;
+    padding: 2px;
+    border-radius: 10px;
+    color:rgb(242, 246, 255);
+    background-color: rgb(187, 163, 255);
+
+}

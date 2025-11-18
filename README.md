@@ -34,8 +34,8 @@ Trabalhar com elementos visuais e design utilizando CSS3, explorando sistemas de
 - [ ] **3.2** Aplicar diferentes tamanhos de fonte com `font-size` (px, em, rem, %)
 - [ ] **3.3** Usar `font-weight` para variar a espessura da fonte (normal, bold, 100-900)
 - [ ] **3.4** Ajustar espaçamento entre linhas com `line-height`
-- [ ] **3.5** Implementar Google Fonts no projeto
-- [ ] **3.6** Usar pelo menos 2 fontes diferentes do Google Fonts
+- [x] **3.5** Implementar Google Fonts no projeto
+- [x] **3.6** Usar pelo menos 2 fontes diferentes do Google Fonts
 - [ ] **3.7** Aplicar outros estilos tipográficos (font-style, text-decoration, text-transform)
 
 ### 4. Backgrounds
@@ -56,10 +56,10 @@ Trabalhar com elementos visuais e design utilizando CSS3, explorando sistemas de
 ### 6. Integração e Finalização
 - [x] **6.1** Criar uma página HTML completa aplicando todos os conceitos
 - [x] **6.2** Garantir que o código HTML seja válido e semântico
-- [ ] **6.3** Garantir que o CSS seja bem organizado e comentado
-- [ ] **6.4** Testar a página em diferentes navegadores
-- [ ] **6.5** Fazer commit e push das alterações
-- [ ] **6.6** Verificar se o resultado está visível no GitHub
+- [x] **6.3** Garantir que o CSS seja bem organizado e comentado
+- [x] **6.4** Testar a página em diferentes navegadores
+- [x] **6.5** Fazer commit e push das alterações
+- [x] **6.6** Verificar se o resultado está visível no GitHub
 
 ## 📚 Recursos Úteis
 
