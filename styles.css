@@ -62,7 +62,7 @@ header {
 
 .card p {
   font-size: 0.9em;
-  color: #ce79d6;
+  color: #ba9fe1;
 }
 
 /* Paleta de Cores do Projeto */
@@ -223,7 +223,7 @@ header {
 #backgrounds .card.bg-cor {
     background-color: #a4c5fa;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgb(90, 87, 87);
+    text-shadow: 1px 1px 1px rgb(90, 87, 87);
 }
 
 #backgrounds .card.bg-imagem {
@@ -232,7 +232,7 @@ header {
     background-size: contain;
     background-color: #f0f0f0;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgb(90, 87, 87);
+    text-shadow: 1px 1px 1px rgb(90, 87, 87);
 
 }
 
@@ -254,7 +254,7 @@ header {
     background-position: center center;
     background-color: #a4c5fa;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgb(90, 87, 87);
+    text-shadow: 1px 1px 1px rgb(90, 95, 95);
 
 }
 
@@ -448,4 +448,5 @@ header {
     background-color: #5f5baf;
     text-align: center;
 }
+
 
