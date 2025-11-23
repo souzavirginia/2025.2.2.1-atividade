@@ -262,8 +262,8 @@ width: 150px;
 
 .gradiente-item {
   width: calc(33.33% - 15px);
-  min-width: 280px; 
-  height: 250px;
+  min-width: 220px; 
+  height: 180px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   position: relative;
