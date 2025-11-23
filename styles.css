@@ -63,6 +63,7 @@ header {
 .card p {
   font-size: 0.9em;
   color: #6469ee;
+  font-weight: 600;
 }
 
 /* Paleta de Cores do Projeto */
@@ -102,7 +103,7 @@ header {
 }
 
 .cor-terciaria {
-  background-color: #78acff; 
+  background-color: #a4c5fa; 
 }
 
 .cor-acento {
@@ -220,12 +221,12 @@ header {
 }
 
 #backgrounds .card.bg-cor {
-    background-color: #78acff;
+    background-color: #a4c5fa;
     color: rgb(0, 0, 0)
 }
 
 #backgrounds .card.bg-imagem {
-    background-image: url('https://i.pinimg.com/736x/5a/88/98/5a889852d06cdc3f8d7aa1db54319c42.jpg'); 
+    background-image: url('https://i.pinimg.com/1200x/a1/45/47/a145474ed36b71c9ea13e57581e786e5.jpg'); 
     background-repeat: repeat;
     background-size: contain;
     background-color: #f0f0f0;
@@ -235,7 +236,7 @@ header {
 
 #backgrounds .card.bg-cover,
 #backgrounds .card.bg-contain {
-    background-image: url('https://i.pinimg.com/736x/5a/88/98/5a889852d06cdc3f8d7aa1db54319c42.jpg');
+    background-image: url('https://i.pinimg.com/1200x/a1/45/47/a145474ed36b71c9ea13e57581e786e5.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black; 
@@ -249,7 +250,7 @@ header {
 #backgrounds .card.bg-contain {
     background-size: contain; 
     background-position: center center;
-    background-color: #78acff;
+    background-color: #a4c5fa;
     color: rgb(17, 16, 16)
 
 }
