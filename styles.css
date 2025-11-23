@@ -226,7 +226,7 @@ header {
 }
 
 #backgrounds .card.bg-imagem {
-    background-image: url('https://i.pinimg.com/1200x/a1/45/47/a145474ed36b71c9ea13e57581e786e5.jpg'); 
+    background-image: url('https://i.pinimg.com/736x/34/9f/20/349f2043ee10ab26d9a47ace12c2a75a.jpg'); 
     background-repeat: repeat;
     background-size: contain;
     background-color: #f0f0f0;
@@ -236,7 +236,7 @@ header {
 
 #backgrounds .card.bg-cover,
 #backgrounds .card.bg-contain {
-    background-image: url('https://i.pinimg.com/1200x/a1/45/47/a145474ed36b71c9ea13e57581e786e5.jpg');
+    background-image: url('https://i.pinimg.com/736x/34/9f/20/349f2043ee10ab26d9a47ace12c2a75a.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black; 
