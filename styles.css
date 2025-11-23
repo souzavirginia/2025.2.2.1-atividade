@@ -222,7 +222,7 @@ header {
 
 #backgrounds .card.bg-cor {
     background-color: #a4c5fa;
-    color: rgb(255, 243, 243)
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgb(90, 87, 87);
 }
 
