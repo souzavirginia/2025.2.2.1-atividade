@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset e Body */
 
 * { 
     margin: 0;
@@ -9,7 +12,7 @@
 
 body {
     color: #5f5baf;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', 'Roboto Condensed' Arial, Helvetica, sans-serif;
     font-size: 14px;
     background: #ffffff url('https://i.pinimg.com/736x/9a/f9/22/9af9228945f3fc8193a1b1410162f386.jpg');
 }
@@ -17,20 +20,17 @@ body {
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 15px; 
+  padding: 15px; 
 }
 
-.secao {
-    margin: 4px;
-    padding: 2px;
-    border-radius: 10px;
-}
+/* Header */
 
 header {
     color: #fefdff;
-    background-color: #5f5baf;
     padding: 25px;
     text-align: center;
+    background-image: linear-gradient(to right, #5f5baf, #9a64c5);
+    background-color: #5f5baf;
 }
 
 /* 1. Sistemas de Cores em CSS */
@@ -108,14 +108,9 @@ header {
   background-color: #ba9fe1; 
 }
 
-
 .cor-neutra {
   background-color: #c4c5e8; 
   color: #ffffff; 
-}
-
-.cor-neutra span {
-    color: #f3f9ff;
 }
 
 
@@ -214,12 +209,12 @@ header {
 }
 
 .pos-item {
-width: 150px;
+  width: 150px;
   height: 150px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   background-image: url('https://i.pinimg.com/736x/73/ad/84/73ad8448bad0069db0e0c38fe3b00727.jpg');
-  background-size: 150%; 
+  background-size: 60%; 
   background-repeat: no-repeat;
   color: white;
   text-shadow: 1px 1px 2px black;
@@ -299,15 +294,15 @@ width: 150px;
 
 
 .grad-linear-2 {
-  background-image: linear-gradient(to right, #667eea, #764ba2);
+  background-image: linear-gradient(to right, #667eea, #ff8ff9);
 }
 
 .grad-linear-3 {
-  background-image: linear-gradient(to right, #f093fb, #f5576c, #ffd140);
+  background-image: linear-gradient(to right, #f093fb, #7457f5, #ffd140);
 }
 
 .grad-linear-diagonal {
-  background-image: linear-gradient(45deg, #FA8BFF, #2BD2FF, #2BFF88);
+  background-image: linear-gradient(45deg, #ff80c6, #85f89e, #80c2ff);
 }
 
 .grad-radial {
@@ -315,11 +310,11 @@ width: 150px;
 }
 
 .grad-complexo {
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  background-image: linear-gradient(135deg, #ea6666 0%, #804eb3 50%, #f093fb 100%);
 }
 
 .grad-radial-complexo {
-  background-image: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88);
+  background-image: radial-gradient(circle at top left, #FA8BFF, #ff9b58, #fd39ed);
 }
 
 
@@ -341,6 +336,8 @@ width: 150px;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
   transition: transform 0.3s ease-in-out;
+  text-align: center;
+  font-family: 'robot';
 }
 
 .card-exercicio:hover {
@@ -368,6 +365,7 @@ width: 150px;
   color: white;
   padding: 10px 20px;
   border-radius: 6px;
+  font-family: 'robot condensed';
   font-size: 1em;
   font-weight: bold;
   cursor: pointer;
@@ -390,6 +388,5 @@ width: 150px;
     border-radius: 10px;
     background-color: #5f5baf;
     text-align: center;
-
 }
 
