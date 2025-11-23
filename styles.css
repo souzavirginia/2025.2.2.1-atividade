@@ -8,6 +8,7 @@
 
 
 body {
+    color: #5f5baf;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 14px;
     background: #ffffff url('https://i.pinimg.com/736x/9a/f9/22/9af9228945f3fc8193a1b1410162f386.jpg');
@@ -20,14 +21,10 @@ body {
 }
 
 header {
-    color: #5f5baf;
-    background-color: #7ea8ec;
+    color: #fefdff;
+    background-color: #5f5baf;
+    padding: 25px;
     text-align: center;
-}
-
-header h1 {
-    color: #5f5baf;
-    background-color: #BBA9D4;
 }
 
 
@@ -97,7 +94,7 @@ header h1 {
 }
 
 .cor-terciaria {
-  background-color: #568de4; 
+  background-color: #78acff; 
 }
 
 .cor-acento {
@@ -107,12 +104,11 @@ header h1 {
 
 .cor-neutra {
   background-color: #c4c5e8; 
-  color: #343a40; 
+  color: #ffffff; 
 }
 
 .cor-neutra span {
-    color: #343a40;
-    text-shadow: none;
+    color: #f3f9ff;
 }
 
 
@@ -325,7 +321,7 @@ width: 150px;
 
 .card-exercicio {
   width: 90%; 
-  max-width: 350px; 
+  max-width: 250px; 
   padding: 25px; 
   background-color: #ffffff; 
   border-radius: 12px;
@@ -370,11 +366,11 @@ width: 150px;
 }
 
 .footer-principal {
-    color: #5f5baf;
+    color: #ffffff;
+    font-weight: italic;
     margin: 4px;
     padding: 2px;
     border-radius: 10px;
-    background-color: #BBA9D4;
+    background-color: #5f5baf;
 
 }
-
