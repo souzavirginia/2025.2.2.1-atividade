@@ -43,7 +43,6 @@ header {
   padding: 20px 0;
 }
 
-
 .card {
   width: calc(25% - 15px); 
   min-width: 150px; 
@@ -65,6 +64,8 @@ header {
   font-size: 0.9em;
   color: #c4c5e8;
 }
+
+/* Paleta de Cores do Projeto */
 
 .cor-item {
   width: 150px;
@@ -200,6 +201,62 @@ header {
 
 /* 3. Backgrounds */
 
+
+#backgrounds .card {
+
+  width: calc(25% - 15px);
+  min-width: 150px;
+  height: 150px; 
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+#backgrounds .card.bg-cor {
+    background-color: #78acff;
+    color: white;
+    text-shadow: none;
+}
+
+#backgrounds .card.bg-imagem {
+    background-image: url('https://i.pinimg.com/736x/5a/88/98/5a889852d06cdc3f8d7aa1db54319c42.jpg'); 
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: #f0f0f0;
+    color: #333;
+    text-shadow: none;
+}
+
+#backgrounds .card.bg-cover,
+#backgrounds .card.bg-contain {
+    background-image: url('https://i.pinimg.com/736x/5a/88/98/5a889852d06cdc3f8d7aa1db54319c42.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #333; 
+}
+
+#backgrounds .card.bg-cover {
+    background-size: cover; 
+    background-position: center center;
+}
+
+#backgrounds .card.bg-contain {
+    background-size: contain; 
+    background-position: center center;
+    background-color: #78acff;
+    color: black;
+    text-shadow: none;
+}
+
+/* Background Position */
+
 .posicao-grid {
   display: flex;
   flex-wrap: wrap; 
@@ -291,7 +348,6 @@ header {
   left: 10px;
   right: 10px;
 }
-
 
 .grad-linear-2 {
   background-image: linear-gradient(to right, #667eea, #ff8ff9);
