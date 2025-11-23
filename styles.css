@@ -27,6 +27,7 @@ header {
     text-align: center;
 }
 
+/* 1. Sistemas de Cores em CSS */
 
 .exemplo-grid {
   display: flex;
@@ -112,6 +113,8 @@ header {
 }
 
 
+/* 2. Tipografia */
+
 .exemplo-tipografia {
   display: flex;
   flex-wrap: wrap;
@@ -194,6 +197,8 @@ header {
 }
 
 
+/* 3. Backgrounds */
+
 .posicao-grid {
   display: flex;
   flex-wrap: wrap; 
@@ -246,7 +251,7 @@ width: 150px;
 }
 
 
-
+/* 4. Gradientes CSS */
 
 .gradientes-showcase {
   display: flex;
@@ -311,6 +316,9 @@ width: 150px;
   background-image: radial-gradient(circle at top left, #FA8BFF, #2BD2FF, #2BFF88);
 }
 
+
+/* 5. Exercício Prático */
+
 .exercicio-container {
   display: flex;
   flex-direction: column;
@@ -365,13 +373,15 @@ width: 150px;
   transform: translateY(-1px);
 }
 
+
+/* Footer */
+
 .footer-principal {
     color: #ffffff;
     font-weight: italic;
-    margin: 4px;
-    padding: 2px;
-    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15px;
     background-color: #5f5baf;
-    text-align: center;
-
 }
+
