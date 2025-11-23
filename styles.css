@@ -14,6 +14,12 @@ body {
     background: #ffffff url('https://i.pinimg.com/736x/9a/f9/22/9af9228945f3fc8193a1b1410162f386.jpg');
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px; 
+}
+
 .secao {
     margin: 4px;
     padding: 2px;
@@ -381,8 +387,9 @@ width: 150px;
     font-weight: italic;
     margin: 5px;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: #5f5baf;
     text-align: center;
+
 }
 
