@@ -61,8 +61,8 @@ header {
 }
 
 .card p {
-  font-size: 0.9em;
-  color: #ba9fe1;
+  font-size: 1.0em;
+  color: hsl(69, 17%, 8%);
 }
 
 /* Paleta de Cores do Projeto */
@@ -276,9 +276,9 @@ header {
   background-image: url('https://i.pinimg.com/736x/73/ad/84/73ad8448bad0069db0e0c38fe3b00727.jpg');
   background-size: 60%; 
   background-repeat: no-repeat;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  font-size: 0.8em;
+  color: rgb(37, 35, 35);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  font-size: 1.0em;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -448,5 +448,4 @@ header {
     background-color: #5f5baf;
     text-align: center;
 }
-
 
