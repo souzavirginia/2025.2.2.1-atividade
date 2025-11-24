@@ -441,9 +441,13 @@ header {
 
 .footer-principal {
     color: #ffffff;
+    font-family: 'Roboto Condensed', arial;
     font-weight: italic;
-    margin: 5px 0;
+    margin-left: -15px;
+    margin-right: -15px;
     width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 15px;
     border-radius: 10px;
     background-color: #5f5baf;
