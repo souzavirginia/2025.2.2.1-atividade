@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* Reset e Body */
 
@@ -396,7 +398,8 @@ header {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.10);
   transition: transform 0.3s ease-in-out;
   text-align: center;
-  font-family: 'robot';
+  font-family: 'Comfortaa';
+   background-image: linear-gradient(#c1d9ff, #b38fd1);
 }
 
 .card-exercicio:hover {
