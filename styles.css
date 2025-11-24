@@ -442,10 +442,12 @@ header {
 .footer-principal {
     color: #ffffff;
     font-weight: italic;
-    margin: 5px;
+    margin: 5px 0;
+    width: 100%;
     padding: 15px;
     border-radius: 10px;
     background-color: #5f5baf;
     text-align: center;
 }
+
 
